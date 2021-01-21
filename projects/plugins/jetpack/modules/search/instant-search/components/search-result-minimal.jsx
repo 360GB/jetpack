@@ -106,8 +106,6 @@ class SearchResultMinimal extends Component {
 						className="jetpack-instant-search__search-result-minimal-title-link"
 						href={ `//${ fields[ 'permalink.url.raw' ] }` }
 						onClick={ this.props.onClick }
-						rel="noopener noreferrer"
-						target="_blank"
 						//eslint-disable-next-line react/no-danger
 						dangerouslySetInnerHTML={ { __html: highlight.title } }
 					/>
