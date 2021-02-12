@@ -23,6 +23,7 @@ class SeoComponent extends React.Component {
 	};
 
 	render() {
+		// Todo: Make the JP seo-tools settings available in wp-admin rather than linking to Calypso.
 		return (
 			<SettingsCard
 				{ ...this.props }
