@@ -86,6 +86,10 @@ async function setUserAgent() {
 	// Reset context as a workaround to set a custom user agent
 	await jestPlaywright.resetContext( {
 		userAgent: e2eUserAgent,
+		recordVideo: {
+			dir: 'output/videos/',
+			size: { width: 800, height: 600 },
+		},
 	} );
 
 	userAgent = await page.evaluate( () => navigator.userAgent );
