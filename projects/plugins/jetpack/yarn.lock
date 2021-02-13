@@ -2979,27 +2979,27 @@
   resolved "https://registry.yarnpkg.com/@sinonjs/text-encoding/-/text-encoding-0.7.1.tgz#8da5c6530915653f3a1f38fd5f101d8c3f8079c5"
   integrity sha512-+iTbntw2IZPb/anVDbypzfQa+ay64MW0Zo8aJ8gZPWMMK6/OubMVb6lUPMagqjOPnmtauXnFCACVl3O7ogjeqQ==
 
-"@size-limit/file@4.9.1":
-  version "4.9.1"
-  resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-4.9.1.tgz#ce1798b5b4c87d6d4c0caf5ddd6ce5a7638b3307"
-  integrity sha512-ZzjEwraQx/Q/iD6A8+0/y7/mrmJKhDr0fjivBoKpHK70Bb4cuSyRq3+IWOPvlggqcbhV2jfUHA5QD9muEnSnbA==
+"@size-limit/file@4.9.2":
+  version "4.9.2"
+  resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-4.9.2.tgz#bd8553da2ce104e6f1c403e9f2a429ddb5fd9eb1"
+  integrity sha512-jMFbIvY1bLbirjsPpP4fN8/H3EZGML77NTrP0r5rFGKZMFMz+KbQJa4kEzO/OrKQSSJLi6WpOh+xQPOSR1U4PQ==
   dependencies:
     semver "7.3.4"
 
-"@size-limit/preset-app@4.9.1":
-  version "4.9.1"
-  resolved "https://registry.yarnpkg.com/@size-limit/preset-app/-/preset-app-4.9.1.tgz#29961ace65b94ed9a6a02755a2992c48a16ef629"
-  integrity sha512-Qm476obD4egVOzO48+NVo3EQIV18ooqXT0VHILZiuYSlYVlHoPnG6YpwWYezsKoBOwiyISZHb608XD5rrAhx8Q==
+"@size-limit/preset-app@4.9.2":
+  version "4.9.2"
+  resolved "https://registry.yarnpkg.com/@size-limit/preset-app/-/preset-app-4.9.2.tgz#ef6965f6bc6d6590e4eade1769475bdf5cbf9893"
+  integrity sha512-blPp9KUnyLuw4J5ybjL04xLZ6MvwMDBJPQ3tR1Q3fV/ioxJ1OK9CgQBNVAoDRFea5rDBb0vSfD0rgIup44eiRg==
   dependencies:
-    "@size-limit/file" "4.9.1"
-    "@size-limit/time" "4.9.1"
+    "@size-limit/file" "4.9.2"
+    "@size-limit/time" "4.9.2"
 
-"@size-limit/time@4.9.1":
-  version "4.9.1"
-  resolved "https://registry.yarnpkg.com/@size-limit/time/-/time-4.9.1.tgz#c8f4e2fe7930da381fa7298a93c7a0147964c661"
-  integrity sha512-M8eAtCB/XitCgkGiPevj0XNmBuosYPQKBF0iyxDm0TOWUS3Fu56rW368xL3xOgd3SO0PS4j3fYTXbCnZfugKfg==
+"@size-limit/time@4.9.2":
+  version "4.9.2"
+  resolved "https://registry.yarnpkg.com/@size-limit/time/-/time-4.9.2.tgz#651eb2bdbe122fa2c0a08da5d67adfa13e66c6d4"
+  integrity sha512-FNuuPbSlu/9gIup2BED9wo+2VybWEBYqoeHEP1tXibYQQe+Ubo1cbf8J7/7EuJFNrdaKi7dz+AdoCKYVTyf5fQ==
   dependencies:
-    estimo "^2.2.1"
+    estimo "^2.2.3"
     react "^17.0.1"
 
 "@slack/logger@>=1.0.0 <3.0.0":
@@ -8190,15 +8190,15 @@ esrecurse@^4.3.0:
   dependencies:
     estraverse "^5.2.0"
 
-estimo@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/estimo/-/estimo-2.2.1.tgz#c7060cff8d3425c7fea1d69875da8b57d14b047e"
-  integrity sha512-7lDVQKccyDu/fmrAAkJEZ/LT92EQvmbVBthwaZ7sbe4eg/pMllgDF0oZIXPRgM2z/mdm2xBWQmZc7nlVw0xTxw==
+estimo@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/estimo/-/estimo-2.2.3.tgz#a334408dfa023f856041c7bdab36e272949e184e"
+  integrity sha512-x/paClJMxq/tlyR+AOLG824LW24peU4FchHq8s9K8nrwlfuAIBAdtw0Hkr/DCdsVXkGu+fo6WAJsMrGCl8LySg==
   dependencies:
     nanoid "^3.1.11"
     puppeteer-core "^5.2.1"
     tracium "^0.2.1"
-    yargs "^15.4.1"
+    yargs "^16.2.0"
 
 estraverse@^4.1.0, estraverse@^4.1.1, estraverse@^4.2.0:
   version "4.2.0"
@@ -18744,7 +18744,7 @@ yargs@13.3.2, yargs@^13.3.0, yargs@^13.3.2:
     y18n "^4.0.0"
     yargs-parser "^13.1.2"
 
-yargs@16.2.0:
+yargs@16.2.0, yargs@^16.2.0:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-16.2.0.tgz#1c82bf0f6b6a66eafce7ef30e376f49a12477f66"
   integrity sha512-D1mvvtDG0L5ft/jGWkLpG1+m0eQxOfaBvTNELraWj22wSVUMWxZUvYgJYcKh6jGGIkJFhH4IZPQhR4TKpc8mBw==
